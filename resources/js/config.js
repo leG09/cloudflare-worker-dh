@@ -35,6 +35,11 @@ var bigg = [
                 icon: "icon-vex"
             },
             {
+                url: "https://bbs.binmt.cc/forum.php",
+                name: "MT论坛",
+                icon: "icon-mt"
+            }
+            {
                 url: "https://www.chiphell.com/forum.php",
                 name: "chiphell",
                 icon: "icon-xchiphell"
