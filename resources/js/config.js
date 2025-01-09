@@ -22,7 +22,7 @@ var bigg = [
             {
                 url: "http://new.xianbao.fun/yixiaoshi-hot.html",
                 name: "线酷报",
-                icon: "icon-icon"
+                icon: "http://new.xianbao.fun/favicon.ico"
             },
             {
                 url: "https://v2ex.com",
