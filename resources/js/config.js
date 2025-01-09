@@ -20,39 +20,65 @@ var bigg = [
         ]
     },
     {
+        name: "论坛",
+        icon: "icon-icon",
+        bigFly: [
+            {
+                url: "http://new.xianbao.fun/yixiaoshi-hot.html",
+                name: "线酷报",
+                icon: "icon-gerenwangzhan"
+            },
+            {
+                url: "https://v2ex.com",
+                name: "V2EX",
+                icon: "icon-vex"
+            },
+            {
+                url: "https://www.chiphell.com/forum.php",
+                name: "chiphell",
+                icon: "icon-xchiphell"
+            },
+            {
+                url: "http://www.52pojie.cn/",
+                name: "吾爱",
+                icon: "icon-gerenwangzhan"
+            },
+            {
+                url: "https://www.smzdm.com/",
+                name: "什么值得买",
+                icon: "icon-shimozhidemai"
+            },
+            {
+                url: "http://www.right.com.cn/forum/forum.php",
+                name: "恩山",
+                icon: "icon-enshanluntan"
+            },
+            {
+                url: "https://v1.xianbao.net/forum.php",
+                name: "zhuankeba",
+                icon: "icon-gerenwangzhan"
+            },
+            {
+                url: "http://bbs.pcbeta.com/forum.php?gid=86",
+                name: "远景论坛",
+                icon: "icon-gerenwangzhan"
+            }
+        
+        ]
+    },
+    {
         name: "个人网站",
         icon: "icon-gerenwangzhan",
         bigFly: [
             {
-                name: "博客",
-                icon: "icon-boke",
-                url: "https://b.10999901.xyz/"
-            }, {
-                name: "短链系统",
-                icon: "icon-shandian",
-                url: "https://sink.011211.xyz/"
-            }, {
-                name: "云图库",
-                icon: "icon-tuku",
-                url: "https://img.10999901.xyz/"
-            },{
-                name: "BingAI",
-                icon: "icon-AI",
-                url: "https://ai.011211.xyz"
-            },{
-                name: "Game",
-                icon: "icon-ikun1",
-                url: "https://cxk.011211.xyz"
-            },{
-                name: "图库OA",
-                icon: "icon-oabangong-copy",
-                url: "https://img.10999901.xyz/admin"
-            },{
-                name: "博客OA",
-                icon: "icon-oabangong-copy",
-                url: "https://b.10999901.xyz/admin"
+                url: "https://weibo.com/",
+                name: "微博"
             }
-            
+            ,
+            {
+                url: "http://ak.1yy.us.kg:4000",
+                name: "爱快"
+            }
 
         ]
     }, {
@@ -80,11 +106,11 @@ var bigg = [
                 name: "虎牙直播",
                 icon: "icon-huyazhibo",
                 url: "https://www.huya.com/g/lol"
-            },{
+            }, {
                 name: "抖音",
                 icon: "icon-douyin",
                 url: "https://www.douyin.com/"
-            },{
+            }, {
                 name: "音乐磁场",
                 icon: "icon-hifini",
                 url: "https://www.hifini.com/"
@@ -101,23 +127,23 @@ var bigg = [
                 name: "蓝奏云",
                 icon: "icon-lanzouyun",
                 url: "https://up.woozooo.com/"
-            },{
+            }, {
                 name: "阿里云盘",
                 icon: "icon-channel-ali_netdisk_web",
                 url: "https://www.alipan.com/"
-            },{
+            }, {
                 name: "迅雷云盘",
                 icon: "icon-xunlei",
                 url: "https://pan.xunlei.com/"
-            },{
+            }, {
                 name: "OneDrive",
                 icon: "icon-onedrive",
                 url: "https://onedrive.live.com/"
-            },{
+            }, {
                 name: "夸克网盘",
                 icon: "icon-kuakewangpan",
                 url: "https://pan.quark.cn/"
-            },{
+            }, {
                 name: "百度网盘",
                 icon: "icon-baiduwangpan",
                 url: "https://pan.baidu.com/"
@@ -125,7 +151,7 @@ var bigg = [
 
         ]
     },
-     {
+    {
         name: "邮箱",
         icon: "icon-youxiang",
         bigFly: [
@@ -141,7 +167,7 @@ var bigg = [
                 icon: "icon-wangyiyouxiang_24",
                 url: "https://mail.163.com/"
 
-            },{
+            }, {
                 name: "QQ邮箱",
                 icon: "icon-QQ",
                 url: "https://mail.qq.com/"
@@ -149,7 +175,7 @@ var bigg = [
             }
 
         ]
-    },{
+    }, {
         name: "工具",
         icon: "icon-gongju",
         bigFly: [
@@ -158,13 +184,13 @@ var bigg = [
                 icon: "icon-gongju",
                 url: "https://tools.miku.ac/"
 
-            },{
+            }, {
                 name: "Godaddy域名",
                 icon: "icon-godaddy",
                 url: "https://www.godaddy.com/"
 
             },
-          
+
             {
                 name: "IP查询",
                 icon: "icon-ipchaxun",
@@ -254,7 +280,7 @@ var bigg = [
                 name: "Font A.",
                 icon: "icon-font-awesome",
                 url: "https://fontawesome.com/icons?d=gallery&m=free"
-               
+
             },
             {
                 name: "MSDN下载",
@@ -267,7 +293,7 @@ var bigg = [
                 icon: "icon-cloudflare-1",
                 url: "https://dash.cloudflare.com/"
 
-            },{
+            }, {
                 name: "Vercel",
                 icon: "icon-vercel",
                 url: "https://vercel.com/"
@@ -279,10 +305,8 @@ var bigg = [
                 url: "https://www.swiper.com.cn/"
 
             },
-            
+
 
         ]
-    },
-
-
+    }
 ];
