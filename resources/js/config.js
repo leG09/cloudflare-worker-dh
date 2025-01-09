@@ -115,39 +115,6 @@ var bigg = [
             }
         ]
     },
-
-    {
-        name: "网盘",
-        icon: "icon-wangpan",
-        bigFly: [
-            {
-                name: "蓝奏云",
-                icon: "icon-lanzouyun",
-                url: "https://up.woozooo.com/"
-            }, {
-                name: "阿里云盘",
-                icon: "icon-channel-ali_netdisk_web",
-                url: "https://www.alipan.com/"
-            }, {
-                name: "迅雷云盘",
-                icon: "icon-xunlei",
-                url: "https://pan.xunlei.com/"
-            }, {
-                name: "OneDrive",
-                icon: "icon-onedrive",
-                url: "https://onedrive.live.com/"
-            }, {
-                name: "夸克网盘",
-                icon: "icon-kuakewangpan",
-                url: "https://pan.quark.cn/"
-            }, {
-                name: "百度网盘",
-                icon: "icon-baiduwangpan",
-                url: "https://pan.baidu.com/"
-            },
-
-        ]
-    },
     {
         name: "邮箱",
         icon: "icon-youxiang",
