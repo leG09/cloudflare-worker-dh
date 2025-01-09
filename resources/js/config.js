@@ -89,7 +89,7 @@ var bigg = [
             }
             ,
             {
-                url: "http://ak.1yy.us.kg:4000",
+                url: "http://n1.1yy.us.kg:4000",
                 name: "n1",
                 icon: "icon-openwrt"
             }, {
