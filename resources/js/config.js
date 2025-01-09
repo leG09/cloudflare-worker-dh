@@ -5,12 +5,12 @@ var bigg = [
         bigFly: [
             {
                 name: "通义千问",
-                icon: "icon-icon_baidulogo",
+                icon: "icon-tongyiqianwenTongyi-Qianwen",
                 url: "https://tongyi.aliyun.com/qianwen/"
             },
             {
                 name: "Google",
-                icon: "icon-google",
+                icon: "icon-Icon-Google",
                 url: "https://www.google.com/"
             }
         ]
@@ -22,7 +22,7 @@ var bigg = [
             {
                 url: "http://new.xianbao.fun/yixiaoshi-hot.html",
                 name: "线酷报",
-                icon: "icon-gerenwangzhan"
+                icon: "icon-icon"
             },
             {
                 url: "https://v2ex.com",
@@ -37,7 +37,7 @@ var bigg = [
             {
                 url: "http://www.52pojie.cn/",
                 name: "吾爱",
-                icon: "icon-gerenwangzhan"
+                icon: "icon-wuaipojie"
             },
             {
                 url: "https://www.smzdm.com/",
@@ -62,7 +62,7 @@ var bigg = [
             {
                 url: "https://www.hifini.com/",
                 name: "音乐磁场",
-                icon: "icon-gerenwangzhan"
+                icon: "icon-hifini"
             }
 
         ]
@@ -73,30 +73,35 @@ var bigg = [
         bigFly: [
             {
                 url: "http://nas.1yy.us.kg:5000",
-                name: "群晖"
+                name: "群晖",
+                icon: "icon-jiancaitubiao_NAS_qunhui"
             }
             ,
             {
                 url: "http://n1.1yy.us.kg:5700",
-                name: "青龙面板"
+                name: "青龙面板",
+                icon: "icon-bsv"
             },
             {
                 url: "http://ak.1yy.us.kg:4000",
-                name: "爱快"
+                name: "爱快",
+                icon: "icon-a-15574547209456694"
             }
             ,
             {
                 url: "http://ak.1yy.us.kg:4000",
-                name: "n1"
+                name: "n1",
+                icon: "icon-openwrt"
             }, {
                 url: "http://ak.1yy.us.kg:9091",
-                name: "爱快Tr"
+                name: "transmission",
+                icon: "icon-xiazaiqiguanli"
             }
 
         ]
     }, {
         name: "PT网站",
-        icon: "icon-mv",
+        icon: "icon-ppt",
         bigFly: [
             {
                 name: "PTTIME",
@@ -168,14 +173,14 @@ var bigg = [
         bigFly: [
             {
                 name: "cloudflare",
-                icon: "icon-godaddy",
-                url: "https://www.godaddy.com/"
+                icon: "icon-cloudflare",
+                url: "https://www.cloudflare.com/"
 
             },
 
             {
                 name: "IP查询",
-                icon: "icon-ipchaxun",
+                icon: "icon-IPchaxunjilu",
                 url: "https://ip233.cn/"
 
             },
@@ -185,12 +190,10 @@ var bigg = [
                 url: "https://www.itdog.cn/ping"
 
             },
-
             {
                 name: "阿里矢量图标",
-                icon: "icon-keshihua-shiliang",
+                icon: "icon-alibabacloud",
                 url: "https://www.iconfont.cn/"
-
             }
 
         ]
