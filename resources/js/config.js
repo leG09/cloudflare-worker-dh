@@ -22,7 +22,7 @@ var bigg = [
             {
                 url: "http://new.xianbao.fun/yixiaoshi-hot.html",
                 name: "线酷报",
-                icon: "http://new.xianbao.fun/favicon.ico"
+                icon: "icon-icon"
             },
             {
                 url: "https://v2ex.com",
@@ -50,14 +50,14 @@ var bigg = [
                 icon: "icon-enshanluntan"
             },
             {
-                url: "https://v1.xianbao.net/forum.php",
-                name: "zhuankeba",
-                icon: "icon-gerenwangzhan"
+                url: "http://www.zuanke8.com/forum.php?mod=forumdisplay&fid=15&filter=author&orderby=dateline",
+                name: "赚吧",
+                icon: "icon-icon"
             },
             {
                 url: "http://bbs.pcbeta.com/forum.php?gid=86",
                 name: "远景论坛",
-                icon: "icon-gerenwangzhan"
+                icon: "icon-pcbeta"
             },
             {
                 url: "https://www.hifini.com/",
@@ -105,12 +105,12 @@ var bigg = [
         bigFly: [
             {
                 name: "PTTIME",
-                icon: "icon-cctv",
-                url: "https://tv.cctv.com/live/index.shtml"
+                icon: "icon-shijian",
+                url: "https://www.pttime.org/"
             },
             {
                 name: "NICEPT",
-                icon: "icon-youtube",
+                icon: "icon-Nice",
                 url: "https://www.nicept.net/"
             }
         ]
@@ -159,11 +159,11 @@ var bigg = [
             },
             {
                 name: "网易邮箱",
-                icon: "icon-wangyiyouxiang_24",
+                icon: "icon-Appicns_wangyiyouxiang",
                 url: "https://mail.163.com/"
             }, {
                 name: "QQ邮箱",
-                icon: "icon-QQ",
+                icon: "icon-QQyouxiang",
                 url: "https://mail.qq.com/"
             }
         ]
