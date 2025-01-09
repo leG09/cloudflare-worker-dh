@@ -12,6 +12,11 @@ var bigg = [
                 name: "Google",
                 icon: "icon-Icon-Google",
                 url: "https://www.google.com/"
+            },
+            {
+                name: "cloudflare",
+                icon: "icon-cloudflare",
+                url: "https://dash.cloudflare.com/"
             }
         ]
     },
@@ -138,13 +143,6 @@ var bigg = [
         name: "工具",
         icon: "icon-gongju",
         bigFly: [
-            {
-                name: "cloudflare",
-                icon: "icon-cloudflare",
-                url: "https://www.cloudflare.com/"
-
-            },
-
             {
                 name: "IP查询",
                 icon: "icon-IPchaxunjilu",
