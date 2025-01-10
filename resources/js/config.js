@@ -1,7 +1,6 @@
 var bigg = [
     {
         name: "常用网站",
-        icon: "icon-sousuo_2",
         bigFly: [
             {
                 name: "通义千问",
@@ -22,7 +21,6 @@ var bigg = [
     },
     {
         name: "论坛",
-        icon: "icon-icon",
         bigFly: [
             {
                 url: "http://new.xianbao.fun/yixiaoshi-hot.html",
@@ -79,7 +77,6 @@ var bigg = [
     },
     {
         name: "个人网站",
-        icon: "icon-gerenwangzhan",
         bigFly: [
             {
                 url: "http://nas.1yy.us.kg:5000",
@@ -111,7 +108,6 @@ var bigg = [
         ]
     }, {
         name: "PT网站",
-        icon: "icon-ppt",
         bigFly: [
             {
                 name: "PTTIME",
@@ -127,7 +123,6 @@ var bigg = [
     },
     {
         name: "邮箱",
-        icon: "icon-youxiang",
         bigFly: [
             {
                 name: "Gmail",
@@ -146,7 +141,6 @@ var bigg = [
         ]
     }, {
         name: "工具",
-        icon: "icon-gongju",
         bigFly: [
             {
                 name: "IP查询",
