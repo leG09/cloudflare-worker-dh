@@ -1,7 +1,6 @@
 var bigg = [
     {
         name: "常用网站",
-        icon: "icon-sousuo_2",
         bigFly: [
             {
                 name: "DeepSeek",
@@ -17,12 +16,16 @@ var bigg = [
                 name: "Google",
                 icon: "icon-Icon-Google",
                 url: "https://www.google.com/"
+            },
+            {
+                name: "cloudflare",
+                icon: "icon-cloudflare",
+                url: "https://dash.cloudflare.com/"
             }
         ]
     },
     {
         name: "论坛",
-        icon: "icon-icon",
         bigFly: [
             {
                 url: "http://new.xianbao.fun/yixiaoshi-hot.html",
@@ -33,6 +36,11 @@ var bigg = [
                 url: "https://v2ex.com",
                 name: "V2EX",
                 icon: "icon-vex"
+            },
+            {
+                url: "https://bbs.binmt.cc/forum.php",
+                name: "MT论坛",
+                icon: "icon-mt"
             },
             {
                 url: "https://www.chiphell.com/forum.php",
@@ -74,7 +82,6 @@ var bigg = [
     },
     {
         name: "个人网站",
-        icon: "icon-gerenwangzhan",
         bigFly: [
             {
                 url: "http://nas.1yy.us.kg:5000",
@@ -94,7 +101,7 @@ var bigg = [
             }
             ,
             {
-                url: "http://ak.1yy.us.kg:4000",
+                url: "http://n1.1yy.us.kg:4000",
                 name: "n1",
                 icon: "icon-openwrt"
             }, {
@@ -106,7 +113,6 @@ var bigg = [
         ]
     }, {
         name: "PT网站",
-        icon: "icon-ppt",
         bigFly: [
             {
                 name: "PTTIME",
@@ -122,7 +128,6 @@ var bigg = [
     },
     {
         name: "邮箱",
-        icon: "icon-youxiang",
         bigFly: [
             {
                 name: "Gmail",
@@ -141,15 +146,7 @@ var bigg = [
         ]
     }, {
         name: "工具",
-        icon: "icon-gongju",
         bigFly: [
-            {
-                name: "cloudflare",
-                icon: "icon-cloudflare",
-                url: "https://www.cloudflare.com/"
-
-            },
-
             {
                 name: "IP查询",
                 icon: "icon-IPchaxunjilu",
