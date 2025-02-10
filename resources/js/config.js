@@ -1,6 +1,6 @@
 var bigg = [
     {
-        name: "常用网站",
+        name: "AI",
         bigFly: [
             {
                 name: "DeepSeek",
@@ -8,19 +8,19 @@ var bigg = [
                 url: "https://chat.deepseek.com/"
             },
             {
+                name: "ChatGPT",
+                icon: "icon-chat-gpt",
+                url: "https://chatgpt.com/"
+            },
+            {
+                name: "硅基流动",
+                icon: "icon-a-ziyuan2",
+                url: "https://cloud.siliconflow.cn/playground/chat"
+            },
+            {
                 name: "通义千问",
                 icon: "icon-tongyiqianwenTongyi-Qianwen",
                 url: "https://tongyi.aliyun.com/qianwen/"
-            },
-            {
-                name: "Google",
-                icon: "icon-Icon-Google",
-                url: "https://www.google.com/"
-            },
-            {
-                name: "cloudflare",
-                icon: "icon-cloudflare",
-                url: "https://dash.cloudflare.com/"
             }
         ]
     },
@@ -152,6 +152,11 @@ var bigg = [
                 icon: "icon-IPchaxunjilu",
                 url: "https://ip233.cn/"
 
+            },
+            {
+                name: "cloudflare",
+                icon: "icon-cloudflare",
+                url: "https://dash.cloudflare.com/"
             },
             {
                 name: "站长Ping",
