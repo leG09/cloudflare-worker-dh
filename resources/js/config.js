@@ -36,7 +36,7 @@ var bigg = [
                 url: "https://v2ex.com",
                 name: "V2EX",
                 icon: "icon-vex"
-            },
+            }
             ,
             {
                 url: "https://www.guozaoke.com/",
