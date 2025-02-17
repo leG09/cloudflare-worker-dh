@@ -124,6 +124,11 @@ var bigg = [
                 name: "雷鲸",
                 icon: "icon-tianyiyun",
                 url: "https://www.leijing.xyz/"
+            },
+            {
+                name: "盘友圈",
+                icon: "icon-logo",
+                url: "https://panyq.com/"
             }
         ]
     }, {
