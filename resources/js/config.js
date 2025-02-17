@@ -118,6 +118,15 @@ var bigg = [
 
         ]
     }, {
+        name: "网盘资源",
+        bigFly: [
+            {
+                name: "雷鲸",
+                icon: "icon-tianyiyun",
+                url: "https://www.leijing.xyz/"
+            }
+        ]
+    }, {
         name: "PT网站",
         bigFly: [
             {
