@@ -104,8 +104,12 @@ var bigg = [
                 url: "http://ak.lgqytt.ggff.net:4000",
                 name: "爱快",
                 icon: "icon-a-15574547209456694"
-            }
-            ,
+            },
+            {
+                url: "http://dav.lgqytt.ggff.net:5244",
+                name: "ak alist",
+                icon: "icon-alist"
+            },
             {
                 url: "http://n1.lgqytt.ggff.net:4000",
                 name: "n1",
