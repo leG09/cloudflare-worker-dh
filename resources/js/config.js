@@ -129,6 +129,11 @@ var bigg = [
                 name: "盘友圈",
                 icon: "icon-logo",
                 url: "https://panyq.com/"
+            },
+            {
+                name: "夸克福利社",
+                icon: "icon-logo",
+                url: "https://kuakes.com/"
             }
         ]
     }, {
