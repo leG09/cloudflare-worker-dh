@@ -90,28 +90,28 @@ var bigg = [
         name: "个人网站",
         bigFly: [
             {
-                url: "http://nas.1yy.us.kg:5000",
+                url: "http://nas.lgqytt.ggff.net:5000",
                 name: "群晖",
                 icon: "icon-jiancaitubiao_NAS_qunhui"
             }
             ,
             {
-                url: "http://n1.1yy.us.kg:5700",
+                url: "http://n1.lgqytt.ggff.net:5700",
                 name: "青龙面板",
                 icon: "icon-bsv"
             },
             {
-                url: "http://ak.1yy.us.kg:4000",
+                url: "http://ak.lgqytt.ggff.net:4000",
                 name: "爱快",
                 icon: "icon-a-15574547209456694"
             }
             ,
             {
-                url: "http://n1.1yy.us.kg:4000",
+                url: "http://n1.lgqytt.ggff.net:4000",
                 name: "n1",
                 icon: "icon-openwrt"
             }, {
-                url: "http://ak.1yy.us.kg:9091",
+                url: "http://ak.lgqytt.ggff.net:9091",
                 name: "transmission",
                 icon: "icon-xiazaiqiguanli"
             }
