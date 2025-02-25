@@ -138,6 +138,11 @@ var bigg = [
                 name: "夸克福利社",
                 icon: "icon-logo",
                 url: "https://kuakes.com/"
+            },
+            {
+                name: "网盘资源社",
+                icon: "icon-logo",
+                url: "https://wpzysq.com/"
             }
         ]
     }, {
