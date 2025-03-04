@@ -161,26 +161,13 @@ var bigg = [
         ]
     },
     {
-        name: "邮箱",
-        bigFly: [
-            {
-                name: "Gmail",
-                icon: "icon-gmail",
-                url: "https://mail.google.com/mail/u/0/#inbox"
-            },
-            {
-                name: "网易邮箱",
-                icon: "icon-Appicns_wangyiyouxiang",
-                url: "https://mail.163.com/"
-            }, {
-                name: "QQ邮箱",
-                icon: "icon-QQyouxiang",
-                url: "https://mail.qq.com/"
-            }
-        ]
-    }, {
         name: "工具",
         bigFly: [
+            {
+                name: "pairdrop",
+                icon: "icon-xinhao",
+                url: "https://pairdrop.net/"
+            },
             {
                 name: "IP查询",
                 icon: "icon-IPchaxunjilu",
@@ -204,6 +191,25 @@ var bigg = [
                 url: "https://www.iconfont.cn/"
             }
 
+        ]
+    },
+    {
+        name: "邮箱",
+        bigFly: [
+            {
+                name: "Gmail",
+                icon: "icon-gmail",
+                url: "https://mail.google.com/mail/u/0/#inbox"
+            },
+            {
+                name: "网易邮箱",
+                icon: "icon-Appicns_wangyiyouxiang",
+                url: "https://mail.163.com/"
+            }, {
+                name: "QQ邮箱",
+                icon: "icon-QQyouxiang",
+                url: "https://mail.qq.com/"
+            }
         ]
     }
 ];
