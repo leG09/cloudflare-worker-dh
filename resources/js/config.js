@@ -90,6 +90,11 @@ var bigg = [
         name: "个人网站",
         bigFly: [
             {
+                url:"http://n1.1yy.us.kg:5001/?token=abcdefg",
+                name:"sp_ss",
+                icon:""
+            },
+            {
                 url: "http://nas.1yy.us.kg:5000",
                 name: "群晖",
                 icon: "icon-jiancaitubiao_NAS_qunhui"
