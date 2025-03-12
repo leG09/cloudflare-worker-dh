@@ -90,37 +90,37 @@ var bigg = [
         name: "个人网站",
         bigFly: [
             {
-                url:"http://n1.1yy.us.kg:5001/?token=abcdefg",
-                name:"sp_ss",
-                icon:""
+                url: window.location.origin.replace(/^https?:\/\/[^.]+\./, "http://n1.") + ":5001/?token=abcdefg",
+                name: "sp_ss",
+                icon: ""
             },
             {
-                url: "http://nas.1yy.us.kg:5000",
+                url: window.location.origin.replace(/^https?:\/\/[^.]+\./, "http://nas.") + ":5000",
                 name: "群晖",
                 icon: "icon-jiancaitubiao_NAS_qunhui"
             }
             ,
             {
-                url: "http://n1.1yy.us.kg:5700",
+                url: window.location.origin.replace(/^https?:\/\/[^.]+\./, "http://n1.") + ":5700",
                 name: "青龙面板",
                 icon: "icon-bsv"
             },
             {
-                url: "http://ak.1yy.us.kg:4000",
+                url: window.location.origin.replace(/^https?:\/\/[^.]+\./, "http://ak.") + ":4000",
                 name: "爱快",
                 icon: "icon-a-15574547209456694"
             },
             {
-                url: "http://dav.1yy.us.kg:5244",
+                url: window.location.origin.replace(/^https?:\/\/[^.]+\./, "http://dav.") + ":5244",
                 name: "ak alist",
                 icon: "icon-alist"
             },
             {
-                url: "http://n1.1yy.us.kg:4000",
+                url: window.location.origin.replace(/^https?:\/\/[^.]+\./, "http://n1.") + ":4000",
                 name: "n1",
                 icon: "icon-openwrt"
             }, {
-                url: "http://ak.1yy.us.kg:9091",
+                url: window.location.origin.replace(/^https?:\/\/[^.]+\./, "http://ak.") + ":9091",
                 name: "transmission",
                 icon: "icon-xiazaiqiguanli"
             }
