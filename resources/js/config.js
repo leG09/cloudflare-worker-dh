@@ -90,7 +90,7 @@ var bigg = [
         name: "个人网站",
         bigFly: [
             {
-                url: window.location.origin.replace(/^https?:\/\/[^.]+\./, "http://n1.") + ":5001/?token=abcdefg",
+                url: window.location.origin.replace(/^https?:\/\/[^.]+\./, "http://n1.") + ":5001",
                 name: "sp_ss",
                 icon: ""
             },
