@@ -92,7 +92,7 @@ var bigg = [
             {
                 url: window.location.origin.replace(/^https?:\/\/[^.]+\./, "http://n1.") + ":5001",
                 name: "sp_ss",
-                icon: ""
+                icon: "icon-weixiao"
             },
             {
                 url: window.location.origin.replace(/^https?:\/\/[^.]+\./, "http://nas.") + ":5000",
@@ -194,6 +194,11 @@ var bigg = [
                 name: "阿里矢量图标",
                 icon: "icon-alibabacloud",
                 url: "https://www.iconfont.cn/"
+            },
+            {
+                name: "维修网站",
+                icon: "icon-weixiu",
+                url: "https://zh.ifixit.com/"
             }
 
         ]
