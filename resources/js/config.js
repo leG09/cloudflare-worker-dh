@@ -95,11 +95,15 @@ var bigg = [
                 icon: "icon-weixiao"
             },
             {
-                url: window.location.origin.replace(/^https?:\/\/[^.]+\./, "http://nas.") + ":5000",
-                name: "群晖",
-                icon: "icon-jiancaitubiao_NAS_qunhui"
-            }
-            ,
+                name: "sub_web",
+                icon: "icon-weixiao",
+                url: "https://sub.190607.xyz/"
+            },
+            {
+                url: window.location.origin.replace(/^https?:\/\/[^.]+\./, "http://n1.") + ":4000",
+                name: "n1",
+                icon: "icon-openwrt"
+            },
             {
                 url: window.location.origin.replace(/^https?:\/\/[^.]+\./, "http://n1.") + ":5700",
                 name: "青龙面板",
@@ -115,16 +119,15 @@ var bigg = [
                 name: "ak alist",
                 icon: "icon-alist"
             },
-            {
-                url: window.location.origin.replace(/^https?:\/\/[^.]+\./, "http://n1.") + ":4000",
-                name: "n1",
-                icon: "icon-openwrt"
-            }, {
+             {
                 url: window.location.origin.replace(/^https?:\/\/[^.]+\./, "http://ak.") + ":9091",
                 name: "transmission",
                 icon: "icon-xiazaiqiguanli"
+            },{
+                url: window.location.origin.replace(/^https?:\/\/[^.]+\./, "http://nas.") + ":5000",
+                name: "群晖",
+                icon: "icon-jiancaitubiao_NAS_qunhui"
             }
-
         ]
     }, {
         name: "网盘资源",
@@ -172,11 +175,6 @@ var bigg = [
                 name: "pairdrop",
                 icon: "icon-xinhao",
                 url: "https://pairdrop.net/"
-            },
-            {
-                name: "sub_web",
-                icon: "icon-weixiao",
-                url: "https://sub.190607.xyz/"
             },
             {
                 name: "甲骨文",
