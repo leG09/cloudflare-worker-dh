@@ -174,6 +174,16 @@ var bigg = [
                 url: "https://pairdrop.net/"
             },
             {
+                name: "sub_web",
+                icon: "icon-weixiao",
+                url: "https://sub.ops.ci/"
+            },
+            {
+                name: "甲骨文",
+                icon: "icon-jiaguwen",
+                url: "https://cloud.oracle.com/compute/instances?region=eu-paris-1"
+            },
+            {
                 name: "IP查询",
                 icon: "icon-IPchaxunjilu",
                 url: "https://ip233.cn/"
