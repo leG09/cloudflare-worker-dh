@@ -176,7 +176,7 @@ var bigg = [
             {
                 name: "sub_web",
                 icon: "icon-weixiao",
-                url: "https://sub.ops.ci/"
+                url: "https://sub.190607.xyz/"
             },
             {
                 name: "甲骨文",
