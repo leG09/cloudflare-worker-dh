@@ -8,6 +8,11 @@ var bigg = [
                 url: "https://chat.deepseek.com/"
             },
             {
+                name: "Grok",
+                icon: "icon-grok",
+                url: "https://grok.com/"
+            },
+            {
                 name: "ChatGPT",
                 icon: "icon-chat-gpt",
                 url: "https://chatgpt.com/"
