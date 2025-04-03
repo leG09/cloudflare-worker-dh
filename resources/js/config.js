@@ -95,6 +95,16 @@ var bigg = [
         name: "个人网站",
         bigFly: [
             {
+                url: window.location.origin.replace(/^https?:\/\/[^.]+\./, "https://nz."),
+                name: "哪吒面板",
+                icon: "icon-nazha"
+            },
+            {
+                url: window.location.origin.replace(/^https?:\/\/[^.]+\./, "https://ng."),
+                name: "ng反代面板",
+                icon: "icon-nginx-copy"
+            },
+            {
                 url: window.location.origin.replace(/^https?:\/\/[^.]+\./, "http://n1.") + ":5001",
                 name: "sp_ss",
                 icon: "icon-weixiao"
@@ -102,7 +112,7 @@ var bigg = [
             {
                 name: "sub_web",
                 icon: "icon-weixiao",
-                url: "https://sub.190607.xyz/"
+                url: window.location.origin.replace(/^https?:\/\/[^.]+\./, "https://sub.")
             },
             {
                 url: window.location.origin.replace(/^https?:\/\/[^.]+\./, "http://n1.") + ":4000",
