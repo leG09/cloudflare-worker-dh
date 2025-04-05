@@ -16,7 +16,6 @@ function toggleTheme() {
   // 延迟一点时间后刷新dom.js生成的内容样式
   setTimeout(() => {
     refreshDomStyles();
-    setupHoverEffects();
   }, 100);
 }
 
@@ -36,54 +35,10 @@ function refreshDomStyles() {
         el.style.backgroundColor = '#383838';
         el.style.color = '#f1f1f1';
         el.style.borderColor = '#4d4d4d';
-        el.style.transition = 'all 0.3s ease';
-        
-        // 添加悬停事件处理
-        el.onmouseenter = function() {
-          this.style.backgroundColor = '#444444';
-          this.style.boxShadow = '0 5px 15px rgba(0, 0, 0, 0.4)';
-          this.style.transform = 'translateY(-3px)';
-          this.style.color = '#ffffff';
-          
-          // 确保SVG和文本也变亮
-          const svg = this.querySelector('svg');
-          if (svg) {
-            svg.style.fill = '#ffffff';
-            svg.style.color = '#ffffff';
-          }
-          
-          const span = this.querySelector('span');
-          if (span) {
-            span.style.color = '#ffffff';
-          }
-        };
-        
-        el.onmouseleave = function() {
-          this.style.backgroundColor = '#383838';
-          this.style.boxShadow = 'none';
-          this.style.transform = 'translateY(0)';
-          this.style.color = '#f1f1f1';
-          
-          // 恢复SVG和文本颜色
-          const svg = this.querySelector('svg');
-          if (svg) {
-            svg.style.fill = '#f1f1f1';
-            svg.style.color = '#f1f1f1';
-          }
-          
-          const span = this.querySelector('span');
-          if (span) {
-            span.style.color = '#f1f1f1';
-          }
-        };
       } else {
-        // 移除暗色模式的样式和事件
         el.style.backgroundColor = '';
         el.style.color = '';
         el.style.borderColor = '';
-        el.style.transition = '';
-        el.onmouseenter = null;
-        el.onmouseleave = null;
       }
     }
     
@@ -195,62 +150,6 @@ function observeDomChanges() {
   return observer;
 }
 
-// 添加这个函数到script.js
-function setupHoverEffects() {
-  // 获取所有链接
-  const links = document.querySelectorAll('#jjjjjjjjjjjjjjj a, .mylist li a');
-  
-  // 检查是否处于暗色模式
-  const isDarkMode = document.documentElement.getAttribute('data-theme') === 'dark';
-  
-  links.forEach(link => {
-    // 移除现有的事件监听器
-    link.onmouseenter = null;
-    link.onmouseleave = null;
-    
-    if (isDarkMode) {
-      // 添加暗色模式的悬停效果
-      link.addEventListener('mouseenter', function() {
-        this.style.backgroundColor = '#444444';
-        this.style.boxShadow = '0 5px 15px rgba(0, 0, 0, 0.4)';
-        this.style.transform = 'translateY(-3px)';
-        this.style.color = '#ffffff';
-        
-        // 确保SVG和文本也变亮
-        const svg = this.querySelector('svg');
-        if (svg) {
-          svg.style.fill = '#ffffff';
-          svg.style.color = '#ffffff';
-        }
-        
-        const span = this.querySelector('span');
-        if (span) {
-          span.style.color = '#ffffff';
-        }
-      });
-      
-      link.addEventListener('mouseleave', function() {
-        this.style.backgroundColor = '#383838';
-        this.style.boxShadow = 'none';
-        this.style.transform = 'translateY(0)';
-        this.style.color = '#f1f1f1';
-        
-        // 恢复SVG和文本颜色
-        const svg = this.querySelector('svg');
-        if (svg) {
-          svg.style.fill = '#f1f1f1';
-          svg.style.color = '#f1f1f1';
-        }
-        
-        const span = this.querySelector('span');
-        if (span) {
-          span.style.color = '#f1f1f1';
-        }
-      });
-    }
-  });
-}
-
 // 初始化主题
 function initTheme() {
   // 先尝试加载保存的主题，如果没有保存的主题再检测系统主题
@@ -267,7 +166,6 @@ function initTheme() {
   // 确保dom.js内容加载完成后应用主题样式
   setTimeout(() => {
     refreshDomStyles();
-    setupHoverEffects();
   }, 500);
   
   // 开始观察DOM变化
