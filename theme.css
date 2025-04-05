@@ -1,0 +1,90 @@
+/* 定义亮色主题变量 */
+:root {
+  --theme-bg: #ffffff;
+  --theme-text: #333333;
+  --theme-container: #f4f8fb;
+  --theme-card: #ffffff;
+  --theme-border: #e4ecf3;
+  --theme-shadow: rgba(0, 0, 0, 0.05);
+  --theme-search: #ffffff;
+  --theme-banner-overlay: rgba(244, 248, 251, 0.6);
+  --theme-banner-bottom: rgb(244, 248, 251);
+}
+
+/* 定义暗色主题变量 */
+html[data-theme="dark"] {
+  --theme-bg: #121212;
+  --theme-text: #f1f1f1;
+  --theme-container: #1e1e1e;
+  --theme-card: #2d2d2d;
+  --theme-border: #3d3d3d;
+  --theme-shadow: rgba(0, 0, 0, 0.2);
+  --theme-search: #2d2d2d;
+  --theme-banner-overlay: rgba(30, 30, 30, 0.6);
+  --theme-banner-bottom: rgb(30, 30, 30);
+}
+
+/* 暗色主题样式 */
+html[data-theme="dark"] body {
+  background-color: #121212 !important;
+  color: #f1f1f1 !important;
+}
+
+html[data-theme="dark"] .container {
+  background-color: #1e1e1e !important;
+}
+
+html[data-theme="dark"] .card,
+html[data-theme="dark"] .search-group,
+html[data-theme="dark"] #search-text,
+html[data-theme="dark"] .searchInputsearchInput,
+html[data-theme="dark"] #search,
+html[data-theme="dark"] .s-search {
+  background-color: #2d2d2d !important;
+  border-color: #3d3d3d !important;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2) !important;
+  color: #f1f1f1 !important;
+}
+
+html[data-theme="dark"] a,
+html[data-theme="dark"] .yiyan,
+html[data-theme="dark"] #hitokoto {
+  color: #f1f1f1 !important;
+}
+
+html[data-theme="dark"] .bottom-cover {
+  background-image: linear-gradient(rgba(255, 255, 255, 0) 0%, rgba(30, 30, 30, 0.6) 50%, rgb(30, 30, 30) 100%) !important;
+}
+
+html[data-theme="dark"] button,
+html[data-theme="dark"] .submit {
+  background-color: #2d2d2d !important;
+  color: #f1f1f1 !important;
+  border-color: #3d3d3d !important;
+}
+
+/* 主题切换按钮样式 */
+#theme-toggle {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+  padding: 8px 12px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+html[data-theme="dark"] #theme-toggle {
+  background-color: #2d2d2d;
+  color: #f1f1f1;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+html:not([data-theme="dark"]) #theme-toggle {
+  background-color: #ffffff;
+  color: #333333;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+} 
