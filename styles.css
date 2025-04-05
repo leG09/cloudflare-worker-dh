@@ -6,6 +6,9 @@
   --card-bg: #ffffff;
   --card-border: #e4ecf3;
   --card-shadow: rgba(0, 0, 0, 0.05);
+  --search-bg: #ffffff;
+  --banner-overlay: rgba(244, 248, 251, 0.6);
+  --banner-bottom: rgb(244, 248, 251);
   /* 其他亮色主题变量 */
 }
 
@@ -17,29 +20,50 @@
   --card-bg: #2d2d2d;
   --card-border: #3d3d3d;
   --card-shadow: rgba(0, 0, 0, 0.2);
+  --search-bg: #2d2d2d;
+  --banner-overlay: rgba(30, 30, 30, 0.6);
+  --banner-bottom: rgb(30, 30, 30);
   /* 其他暗色主题变量 */
 }
 
-/* 应用主题变量 */
+/* 应用主题变量到所有元素 */
 body {
-  background-color: var(--background-color);
-  color: var(--text-color);
+  background-color: var(--background-color) !important;
+  color: var(--text-color) !important;
   transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 /* 确保其他元素也使用主题变量 */
 .container {
-  background-color: var(--container-bg);
+  background-color: var(--container-bg) !important;
 }
 
-.card, .search-group, #search-text {
-  background-color: var(--card-bg);
-  border-color: var(--card-border);
-  box-shadow: 0 0 20px var(--card-shadow);
-  color: var(--text-color);
+.card, .search-group, #search-text, .searchInputsearchInput, #search, .s-search {
+  background-color: var(--card-bg) !important;
+  border-color: var(--card-border) !important;
+  box-shadow: 0 0 20px var(--card-shadow) !important;
+  color: var(--text-color) !important;
 }
 
 /* 确保链接颜色也适应主题 */
-a {
-  color: var(--text-color);
+a, .yiyan, #hitokoto {
+  color: var(--text-color) !important;
+}
+
+/* 修改搜索框样式 */
+#search-text, .searchInputsearchInput {
+  background-color: var(--search-bg) !important;
+  color: var(--text-color) !important;
+}
+
+/* 修改banner底部渐变 */
+.bottom-cover {
+  background-image: linear-gradient(rgba(255, 255, 255, 0) 0%, var(--banner-overlay) 50%, var(--banner-bottom) 100%) !important;
+}
+
+/* 确保所有按钮也使用主题变量 */
+button, .submit {
+  background-color: var(--card-bg) !important;
+  color: var(--text-color) !important;
+  border-color: var(--card-border) !important;
 } 
