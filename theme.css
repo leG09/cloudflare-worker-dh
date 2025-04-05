@@ -87,4 +87,126 @@ html:not([data-theme="dark"]) #theme-toggle {
   background-color: #ffffff;
   color: #333333;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* 适配dom.js生成的内容 */
+html[data-theme="dark"] .jj-list-con {
+  background-color: #2d2d2d !important;
+  border-color: #3d3d3d !important;
+}
+
+html[data-theme="dark"] .jj-list-con .jj-list {
+  background-color: #2d2d2d !important;
+  border-color: #3d3d3d !important;
+}
+
+html[data-theme="dark"] .jj-list-con .jj-list-title {
+  color: #f1f1f1 !important;
+  border-color: #3d3d3d !important;
+}
+
+html[data-theme="dark"] .jj-list-con .jj-list-content a {
+  background-color: #383838 !important;
+  color: #f1f1f1 !important;
+  border-color: #4d4d4d !important;
+}
+
+html[data-theme="dark"] .jj-list-con .jj-list-content a:hover {
+  background-color: #444444 !important;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3) !important;
+}
+
+/* 适配更多可能的dom.js生成的元素 */
+html[data-theme="dark"] .jj-list-con .jj-list-content a span {
+  color: #f1f1f1 !important;
+}
+
+html[data-theme="dark"] .jj-list-con .jj-list-content a i {
+  color: #f1f1f1 !important;
+}
+
+html[data-theme="dark"] .jj-list-con .jj-list-content a svg {
+  fill: #f1f1f1 !important;
+}
+
+/* 确保所有动态生成的内容都适配暗色主题 */
+html[data-theme="dark"] #jjjjjjjjjjjjjjj * {
+  border-color: #3d3d3d !important;
+}
+
+html[data-theme="dark"] #jjjjjjjjjjjjjjj div,
+html[data-theme="dark"] #jjjjjjjjjjjjjjj section {
+  background-color: #2d2d2d !important;
+}
+
+html[data-theme="dark"] #jjjjjjjjjjjjjjj a {
+  background-color: #383838 !important;
+}
+
+html[data-theme="dark"] #jjjjjjjjjjjjjjj a:hover {
+  background-color: #444444 !important;
+}
+
+/* 针对dom.js生成的mylist元素的暗色主题样式 */
+html[data-theme="dark"] .mylist {
+  background-color: #2d2d2d !important;
+  border-color: #3d3d3d !important;
+  color: #f1f1f1 !important;
+}
+
+html[data-theme="dark"] .mylist .title {
+  color: #f1f1f1 !important;
+  border-color: #3d3d3d !important;
+}
+
+html[data-theme="dark"] .mylist li a {
+  background-color: #383838 !important;
+  color: #f1f1f1 !important;
+  border-color: #4d4d4d !important;
+  transition: all 0.3s ease;
+}
+
+html[data-theme="dark"] .mylist li a:hover {
+  background-color: #444444 !important;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3) !important;
+}
+
+html[data-theme="dark"] .mylist li a span {
+  color: #f1f1f1 !important;
+}
+
+/* 确保SVG图标在暗色主题下可见 */
+html[data-theme="dark"] .mylist svg,
+html[data-theme="dark"] .mylist li a svg {
+  fill: #f1f1f1 !important;
+  color: #f1f1f1 !important;
+}
+
+/* 确保所有由dom.js生成的ID以"lllllllllll"开头的元素都适配暗色主题 */
+html[data-theme="dark"] [id^="lllllllllll"] {
+  background-color: #2d2d2d !important;
+  color: #f1f1f1 !important;
+  border-color: #3d3d3d !important;
+}
+
+html[data-theme="dark"] [id^="lllllllllll"] li {
+  border-color: #3d3d3d !important;
+}
+
+/* 修复可能的SVG图标颜色问题 */
+html[data-theme="dark"] svg.icon {
+  fill: currentColor !important;
+}
+
+/* 确保所有动态生成的链接在暗色主题下有正确的颜色 */
+html[data-theme="dark"] #jjjjjjjjjjjjjjj a {
+  color: #f1f1f1 !important;
+  background-color: #383838 !important;
+  border-color: #4d4d4d !important;
+  transition: all 0.3s ease;
+}
+
+html[data-theme="dark"] #jjjjjjjjjjjjjjj a:hover {
+  background-color: #444444 !important;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3) !important;
 } 

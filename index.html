@@ -167,14 +167,15 @@
     <script src="./resources/js/bootstrap.min.js"></script>
     <script src="./resources/js/all.js"></script>
     <script src="./resources/js/config.js"></script>
+    
+    <!-- 添加script.js引用，确保在dom.js之前加载 -->
+    <script src="./script.js"></script>
+    
+    <!-- 最后加载dom.js -->
     <script src="./resources/js/dom.js"></script>
 
     <!-- 主题切换按钮 -->
     <button id="theme-toggle">切换主题</button>
-    
-    <!-- 添加script.js引用 -->
-    <script src="./script.js"></script>
-
 </body>
 
 </html>
