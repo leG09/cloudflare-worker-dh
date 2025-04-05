@@ -32,9 +32,9 @@ function refreshDomStyles() {
     // 处理链接元素
     if (el.tagName === 'A') {
       if (isDarkMode) {
-        el.style.backgroundColor = '#383838';
+        el.style.backgroundColor = 'transparent';
         el.style.color = '#f1f1f1';
-        el.style.borderColor = '#4d4d4d';
+        el.style.borderColor = 'transparent';
       } else {
         el.style.backgroundColor = '';
         el.style.color = '';
@@ -64,14 +64,25 @@ function refreshDomStyles() {
         el.style.color = '';
       }
     }
+    
+    // 确保列表项没有背景
+    if (el.tagName === 'LI' && !el.classList.contains('title')) {
+      if (isDarkMode) {
+        el.style.backgroundColor = 'transparent';
+        el.style.borderColor = 'transparent';
+      } else {
+        el.style.backgroundColor = '';
+        el.style.borderColor = '';
+      }
+    }
   });
   
   // 处理mylist容器
   const mylists = document.querySelectorAll('.mylist');
   mylists.forEach(list => {
     if (isDarkMode) {
-      list.style.backgroundColor = '#2d2d2d';
-      list.style.borderColor = '#3d3d3d';
+      list.style.backgroundColor = 'transparent';
+      list.style.borderColor = 'transparent';
     } else {
       list.style.backgroundColor = '';
       list.style.borderColor = '';

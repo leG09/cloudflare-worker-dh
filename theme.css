@@ -160,15 +160,16 @@ html[data-theme="dark"] .mylist .title {
 }
 
 html[data-theme="dark"] .mylist li a {
-  background-color: #383838 !important;
+  background-color: transparent !important;
   color: #f1f1f1 !important;
-  border-color: #4d4d4d !important;
+  border-color: transparent !important;
   transition: all 0.3s ease;
 }
 
 html[data-theme="dark"] .mylist li a:hover {
-  background-color: #444444 !important;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3) !important;
+  background-color: rgba(255, 255, 255, 0.1) !important;
+  box-shadow: none !important;
+  transform: translateY(-2px);
 }
 
 html[data-theme="dark"] .mylist li a span {
@@ -190,7 +191,8 @@ html[data-theme="dark"] [id^="lllllllllll"] {
 }
 
 html[data-theme="dark"] [id^="lllllllllll"] li {
-  border-color: #3d3d3d !important;
+  background-color: transparent !important;
+  border-color: transparent !important;
 }
 
 /* 修复可能的SVG图标颜色问题 */
@@ -198,15 +200,16 @@ html[data-theme="dark"] svg.icon {
   fill: currentColor !important;
 }
 
-/* 确保所有动态生成的链接在暗色主题下有正确的颜色 */
+/* 确保所有动态生成的链接在暗色主题下没有背景 */
 html[data-theme="dark"] #jjjjjjjjjjjjjjj a {
   color: #f1f1f1 !important;
-  background-color: #383838 !important;
-  border-color: #4d4d4d !important;
+  background-color: transparent !important;
+  border-color: transparent !important;
   transition: all 0.3s ease;
 }
 
 html[data-theme="dark"] #jjjjjjjjjjjjjjj a:hover {
-  background-color: #444444 !important;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3) !important;
+  background-color: rgba(255, 255, 255, 0.1) !important;
+  box-shadow: none !important;
+  transform: translateY(-2px);
 } 
