@@ -148,6 +148,11 @@ var bigg = [
         name: "网盘资源",
         bigFly: [
             {
+                name: "毕方铺",
+                icon: "icon-logo",
+                url: "https://www.iizhi.cn"
+            },
+            {
                 name: "雷鲸",
                 icon: "icon-tianyiyun",
                 url: "https://www.leijing.xyz/"
