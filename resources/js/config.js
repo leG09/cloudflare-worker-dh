@@ -13,6 +13,11 @@ var bigg = [
                 url: "https://grok.com/"
             },
             {
+                name: "gemini",
+                icon: "icon-gemini-ai",
+                url: "https://gemini.google.com/app"
+            },
+            {
                 name: "ChatGPT",
                 icon: "icon-chat-gpt",
                 url: "https://chatgpt.com/"
