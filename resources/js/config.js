@@ -105,11 +105,6 @@ var bigg = [
                 icon: "icon-nazha"
             },
             {
-                url: window.location.origin.replace(/^https?:\/\/[^.]+\./, "https://ng."),
-                name: "ng反代面板",
-                icon: "icon-nginx-copy"
-            },
-            {
                 url: window.location.origin.replace(/^https?:\/\/[^.]+\./, "http://n1.") + ":5001",
                 name: "sp_ss",
                 icon: "icon-weixiao"
