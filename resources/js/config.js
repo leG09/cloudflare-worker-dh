@@ -107,11 +107,11 @@ var bigg = [
             {
                 url: window.location.origin.replace(/^https?:\/\/[^.]+\./, "http://n1.") + ":5001",
                 name: "sp_ss",
-                icon: "icon-weixiao"
+                icon: "icon-xiaomaochushou"
             },
             {
                 name: "sub_web",
-                icon: "icon-weixiao",
+                icon: "icon-xiaomaochushou",
                 url: window.location.origin.replace(/^https?:\/\/[^.]+\./, "https://sub.")
             },
             {
@@ -128,6 +128,16 @@ var bigg = [
                 url: window.location.origin.replace(/^https?:\/\/[^.]+\./, "http://ak.") + ":4000",
                 name: "爱快",
                 icon: "icon-a-15574547209456694"
+            },
+            {
+                url: window.location.origin.replace(/^https?:\/\/[^.]+\./, "http://ak.") + ":1234",
+                name: "yacd面板",
+                icon: "icon-xiaomaochushou"
+            },
+            {
+                url: window.location.origin.replace(/^https?:\/\/[^.]+\./, "http://ak.") + ":54321",
+                name: "x-ui面板",
+                icon: "icon-v2rayN"
             },
             {
                 url: window.location.origin.replace(/^https?:\/\/[^.]+\./, "http://dav.") + ":5244",
