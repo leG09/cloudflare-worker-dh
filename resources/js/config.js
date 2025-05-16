@@ -149,9 +149,9 @@ var bigg = [
                 name: "transmission",
                 icon: "icon-xiazaiqiguanli"
             },{
-                url: window.location.origin.replace(/^https?:\/\/[^.]+\./, "http://nas.") + ":5000",
-                name: "群晖",
-                icon: "icon-jiancaitubiao_NAS_qunhui"
+                url: window.location.origin.replace(/^https?:\/\/[^.]+\./, "http://nas.") + ":5666",
+                name: "飞牛",
+                icon: "icon-download_fnos"
             }
         ]
     }, {
