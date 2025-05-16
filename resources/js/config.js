@@ -187,6 +187,16 @@ var bigg = [
         name: "PT网站",
         bigFly: [
             {
+                name: "M-Team",
+                icon: "icon-mantou",
+                url: "https://kp.m-team.cc/browse"
+            },
+            {
+                name: "CHDBIT",
+                icon: "icon-icon_CHD",
+                url: "https://ptchdbits.co/torrents.php"
+            },
+            {
                 name: "PTTIME",
                 icon: "icon-shijian",
                 url: "https://www.pttime.org/"
