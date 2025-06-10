@@ -242,6 +242,11 @@ var bigg = [
                 name: "阿里矢量图标",
                 icon: "icon-alibabacloud",
                 url: "https://www.iconfont.cn/"
+            },
+            {
+                name: "DNS检测",
+                icon: "icon-wangluo",
+                url: "https://ipleak.net/"
             }
 
         ]
