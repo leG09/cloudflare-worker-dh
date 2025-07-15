@@ -87,13 +87,7 @@ var bigg = [
                 url: "http://bbs.pcbeta.com/forum.php?gid=86",
                 name: "远景论坛",
                 icon: "icon-pcbeta"
-            },
-            {
-                url: "https://www.hifini.com/",
-                name: "音乐磁场",
-                icon: "icon-hifini"
             }
-
         ]
     },
     {
