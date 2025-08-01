@@ -124,7 +124,7 @@ var bigg = [
                 icon: "icon-a-15574547209456694"
             },
             {
-                url: window.location.origin.replace(/^https?:\/\/[^.]+\./, "http://ak.") + ":1234",
+                url: "https://yacd.190607.xyz",
                 name: "yacd面板",
                 icon: "icon-xiaomaochushou"
             },
