@@ -30,7 +30,7 @@ var bigg = [
             {
                 name: "通义千问",
                 icon: "icon-tongyiqianwenTongyi-Qianwen",
-                url: "https://tongyi.aliyun.com/qianwen/"
+                url: "https://www.tongyi.com/"
             }
         ]
     },
@@ -270,3 +270,4 @@ var bigg = [
         ]
     }
 ];
+
