@@ -46,6 +46,11 @@ var bigg = [
                 url: "https://v2ex.com",
                 name: "V2EX",
                 icon: "icon-vex"
+            },
+            {
+                url: "https://linux.do",
+                name: "LINUX DO",
+                icon: "icon-linux-do"
             }
             ,
             {
@@ -270,4 +275,5 @@ var bigg = [
         ]
     }
 ];
+
 
