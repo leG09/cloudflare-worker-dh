@@ -3,19 +3,9 @@ var bigg = [
         name: "AI",
         bigFly: [
             {
-                name: "DeepSeek",
-                icon: "icon-deepseek",
-                url: "https://chat.deepseek.com/"
-            },
-            {
                 name: "Grok",
                 icon: "icon-grok",
                 url: "https://grok.com/"
-            },
-            {
-                name: "gemini",
-                icon: "icon-gemini-ai",
-                url: "https://gemini.google.com/app"
             },
             {
                 name: "ChatGPT",
@@ -23,14 +13,25 @@ var bigg = [
                 url: "https://chatgpt.com/"
             },
             {
-                name: "硅基流动",
-                icon: "icon-a-ziyuan2",
-                url: "https://cloud.siliconflow.cn/playground/chat"
-            },
-            {
                 name: "通义千问",
                 icon: "icon-tongyiqianwenTongyi-Qianwen",
                 url: "https://www.tongyi.com/"
+            }
+            ,
+            {
+                name: "DeepSeek",
+                icon: "icon-deepseek",
+                url: "https://chat.deepseek.com/"
+            },
+            {
+                name: "gemini",
+                icon: "icon-gemini-ai",
+                url: "https://gemini.google.com/app"
+            },
+            {
+                name: "硅基流动",
+                icon: "icon-a-ziyuan2",
+                url: "https://cloud.siliconflow.cn/playground/chat"
             }
         ]
     },
@@ -157,11 +158,6 @@ var bigg = [
         name: "网盘资源",
         bigFly: [
             {
-                name: "毕方铺",
-                icon: "icon-logo",
-                url: "https://www.iizhi.cn"
-            },
-            {
                 name: "雷鲸",
                 icon: "icon-tianyiyun",
                 url: "https://www.leijing.xyz/"
@@ -275,5 +271,6 @@ var bigg = [
         ]
     }
 ];
+
 
 
