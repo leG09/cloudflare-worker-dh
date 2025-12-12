@@ -212,6 +212,11 @@ var bigg = [
                 url: "https://psd.190607.xyz/"
             },
             {
+              name: "PING0",
+                icon: "icon-P",
+                url: "https://www.ping0.cc/"
+            },
+            {
                 name: "pairdrop",
                 icon: "icon-xinhao",
                 url: "https://pairdrop.net/"
@@ -271,6 +276,7 @@ var bigg = [
         ]
     }
 ];
+
 
 
 
