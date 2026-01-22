@@ -52,6 +52,11 @@ var bigg = [
                 url: "https://linux.do",
                 name: "LINUX DO",
                 icon: "icon-linux-do"
+            },
+            {
+                url: "https://forum.naixi.net/",
+                name: "奶昔",
+                icon: "icon-naixi"
             }
             ,
             {
@@ -276,6 +281,7 @@ var bigg = [
         ]
     }
 ];
+
 
 
 
