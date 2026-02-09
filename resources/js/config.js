@@ -163,6 +163,11 @@ var bigg = [
         name: "网盘资源",
         bigFly: [
             {
+                name: "影巢",
+                icon: "icon-common_icon_HD",
+                url: "https://hdhive.com"  
+            },
+            {
                 name: "雷鲸",
                 icon: "icon-tianyiyun",
                 url: "https://www.leijing.xyz/"
@@ -281,6 +286,7 @@ var bigg = [
         ]
     }
 ];
+
 
 
 
