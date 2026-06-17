@@ -105,8 +105,8 @@ var bigg = [
         name: "个人网站",
         bigFly: [
             {
-                url: window.location.origin.replace(/^https?:\/\/[^.]+\./, "https://nz."),
-                name: "哪吒面板",
+                url: window.location.origin.replace(/^https?:\/\/[^.]+\./, "https://tz."),
+                name: "探针",
                 icon: "icon-nazha"
             },
             {
